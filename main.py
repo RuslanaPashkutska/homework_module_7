@@ -16,6 +16,7 @@ from dateutil.utils import today
 
 '''
 
+
 contacts_file = "contacts.txt"
 
 commands = """
@@ -28,6 +29,7 @@ commands = """
 7) birthdays - will show upcoming birthdays
 8) exit - to exit the application
 """
+
 
 class Field:
     def __init__(self, value):
