@@ -16,6 +16,7 @@ from dateutil.utils import today
 
 '''
 
+
 contacts_file = "contacts.txt"
 
 commands = """
