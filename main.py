@@ -183,6 +183,7 @@ def parse_input(user_input):
     cmd, *args = user_input.lower().split()
     return cmd, args
 
+
 @input_error
 def add_contact(args, book):
     name, phone = args
