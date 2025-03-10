@@ -180,12 +180,7 @@ def input_error(func):
 
 @input_error
 def parse_input(user_input):
-    parts = user_input.strip().split(maxsplit=1)
-    cmd = parts[0].lower()
-    if len(parts) > 1:
-        args = parts[1].split()
-    else:
-        args = []
+    cmd, *args = user_input.lower().split()
     return cmd, args
 
 @input_error
